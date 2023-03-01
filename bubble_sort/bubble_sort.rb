@@ -46,6 +46,9 @@ end
 def testing
   array = [64, 34, 25, 12, 22, 11, 90]
   print_array(bubble_sort(array))
+  p "\n"
+  array = [64, 34, 25, 12, 22, 11, 90]
+  print_array(optimized_bubble_sort(array))
 end
 
 testing
